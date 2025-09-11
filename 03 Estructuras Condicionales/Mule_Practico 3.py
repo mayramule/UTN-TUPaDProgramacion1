@@ -24,7 +24,7 @@ else:
 # operador de módulo (%) en Python para evaluar si un número es par o impar.
 numero = int(input("Ingrese un numero a continuacion: "))
 if numero % 2 == 0:
-    print(f"Ha ingreado un numero par: {numero}") 
+    print(f"Ha ingresado un numero par: {numero}") 
 else:
     print("Por favor ingrese un numero par.")
 
@@ -45,3 +45,17 @@ elif edad >= 18 and edad < 30:
     print("Adulto/a joven: mayor o igual que 18 años y menor que 30 años.")
 else:
     print("Adulto/a: mayor o igual que 30 años.")
+
+
+# Ejercicio 5
+#5) Escribir un programa que permita introducir contraseñas de entre 8 y 14 caracteres
+#(incluyendo 8 y 14). Si el usuario ingresa una contraseña de longitud adecuada, imprimir por en
+#pantalla el mensaje "Ha ingresado una contraseña correcta"; en caso contrario, imprimir por
+#pantalla "Por favor, ingrese una contraseña de entre 8 y 14 caracteres". Nota: investigue el uso
+#de la función len() en Python para evaluar la cantidad de elementos que tiene un iterable tal
+#como una lista o un string.
+contrasena = input("Ingrese una contraseña: ")
+if len(contrasena) >= 8 and len(contrasena) <= 14:
+    print("Ha ingresado una contraseña correcta")
+else:
+    print("Por favor, ingrese una contraseña de entre 8 y 14 caracteres")
