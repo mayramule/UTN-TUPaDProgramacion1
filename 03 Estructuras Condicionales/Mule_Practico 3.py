@@ -61,3 +61,28 @@ else:
     print("Por favor, ingrese una contraseña de entre 8 y 14 caracteres")
 
 
+# Ejercicio 6
+# Escribir un programa que tome la lista
+# numeros_aleatorios, calcule su moda, su mediana y su media y las compare para determinar si
+# hay sesgo positivo, negativo o no hay sesgo. Imprimir el resultado por pantalla.
+# Definir la lista numeros_aleatorios de la siguiente forma: import random
+#numeros_aleatorios = [random.randint(1, 100) for i in range(50)]
+import random
+from statistics import mode, median, mean   
+numeros_aleatorios = [random.randint(1, 100) for i in range(50)]
+media = mean(numeros_aleatorios)
+moda = mode(numeros_aleatorios)
+mediana = median(numeros_aleatorios)
+if media > mediana and mediana > moda:
+    print("Hay sesgo positivo")
+elif media < mediana and mediana < moda:
+    print("Hay sesgo negativo")
+elif media == mediana == moda:
+    print("No hay sesgo")
+else:
+    print("No hay sesgo")
+
+print(f"Lista de numeros aleatorios: {numeros_aleatorios}")
+print(f"Media: {media}")
+print(f"Moda: {moda}")
+print(f"Mediana: {mediana}")
