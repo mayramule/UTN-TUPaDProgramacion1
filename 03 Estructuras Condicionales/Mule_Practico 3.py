@@ -121,3 +121,70 @@ elif opcion == 3:
 else:
     respuesta = "Opcion incorrecta"
 print(f"Su nombre es: {respuesta}")
+
+
+# Ejercicio 9
+# Escribir un programa que pida al usuario la magnitud de un terremoto, clasifique la
+# magnitud en una de las siguientes categorías según la escala de Richter e imprima el resultado
+#por pantalla:
+# Menor que 3: "Muy leve" (imperceptible).
+# Mayor o igual que 3 y menor que 4: "Leve" (ligeramente perceptible).
+# Mayor o igual que 4 y menor que 5: "Moderado" (sentido por personas, pero
+# generalmente no causa daños).
+# Mayor o igual que 5 y menor que 6: "Fuerte" (puede causar daños en estructuras
+# débiles).
+# Mayor o igual que 6 y menor que 7: "Muy Fuerte" (puede causar daños significativos).
+# Mayor o igual que 7: "Extremo" (puede causar graves daños a gran escala).
+
+magnitud = float(input("Ingrese la magnitud del terremoto: "))
+
+if magnitud < 3:
+    categoria = "Muy leve (imperceptible)"
+elif magnitud >= 3 and magnitud < 4:
+    categoria = "Leve (ligeramente perceptible)"
+elif magnitud >= 4 and magnitud < 5:
+    categoria = "Moderado (sentido por personas, pero generalmente no causa daños)"
+elif magnitud >= 5 and magnitud < 6:
+    categoria = "Fuerte (puede causar daños en estructuras débiles)"
+elif magnitud >= 6 and magnitud < 7:
+    categoria = "Muy Fuerte (puede causar daños significativos)"
+elif magnitud >= 7:
+    categoria = "Extremo (puede causar graves daños a gran escala)"
+
+print(f"La categoria del terremoto es: {categoria}")
+
+
+# Ejercicio 10
+#Escribir un programa que pregunte al usuario en cuál hemisferio se encuentra (N/S), qué mes
+#del año es y qué día es. El programa deberá utilizar esa información para imprimir por pantalla
+#si el usuario se encuentra en otoño, invierno, primavera o verano.
+hemisferio = input("Ingrese su hemisferio (N/S): ").upper()
+mes = int(input("Ingrese el mes (1-12): "))
+dia = int(input("Ingrese el día (1-31): "))
+
+if hemisferio == "N":
+    if (mes == 12 and dia >= 21) or (mes <= 3 and (mes != 3 or dia <= 20)):
+        estacion = "Invierno"
+    elif (mes == 3 and dia >= 21) or (mes <= 6 and (mes != 6 or dia <= 20)):
+        estacion = "Primavera"
+    elif (mes == 6 and dia >= 21) or (mes <= 9 and (mes != 9 or dia <= 20)):
+        estacion = "Verano"
+    elif (mes == 9 and dia >= 21) or (mes <= 12 and (mes != 12 or dia <= 20)):
+        estacion = "Otoño"
+    else:
+        estacion = "Fecha inválida"
+elif hemisferio == "S":
+    if (mes == 12 and dia >= 21) or (mes <= 3 and (mes != 3 or dia <= 20)):
+        estacion = "Verano"
+    elif (mes == 3 and dia >= 21) or (mes <= 6 and (mes != 6 or dia <= 20)):
+        estacion = "Otoño"
+    elif (mes == 6 and dia >= 21) or (mes <= 9 and (mes != 9 or dia <= 20)):
+        estacion = "Invierno"
+    elif (mes == 9 and dia >= 21) or (mes <= 12 and (mes != 12 or dia <= 20)):
+        estacion = "Primavera"
+    else:
+        estacion = "Fecha inválida"
+else:
+    estacion = "Hemisferio inválido"
+
+print(f"Te encuentras en {estacion}.")
