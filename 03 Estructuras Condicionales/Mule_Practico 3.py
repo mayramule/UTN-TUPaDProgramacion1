@@ -99,3 +99,25 @@ if frase[-1].lower() in "aeiou":
 else:
     respuesta =  frase
 print(f"Su frase o palabra es: {respuesta}")
+
+
+# Ejercicio 8
+#Escribir un programa que solicite al usuario que ingrese su nombre y el número 1, 2 o 3
+#dependiendo de la opción que desee:
+#1. Si quiere su nombre en mayúsculas. Por ejemplo: PEDRO.
+#2. Si quiere su nombre en minúsculas. Por ejemplo: pedro.
+#3. Si quiere su nombre con la primera letra mayúscula. Por ejemplo: Pedro.
+#El programa debe transformar el nombre ingresado de acuerdo a la opción seleccionada por el
+#usuario e imprimir el resultado por pantalla. Nota: investigue uso de las funciones upper(),
+#lower() y title() de Python para convertir entre mayúsculas y minúsculas.
+nombre = input("Por favor ingrese su nombre: ")
+opcion = int(input("Ingrese 1 si quiere su nombre en mayusculas, 2 si lo quiere en minusculas o 3 si lo quiere con la primera letra en mayuscula: "))
+if opcion == 1:
+    respuesta = nombre.upper()
+elif opcion == 2:
+    respuesta = nombre.lower()
+elif opcion == 3:
+    respuesta = nombre.title()
+else:
+    respuesta = "Opcion incorrecta"
+print(f"Su nombre es: {respuesta}")
