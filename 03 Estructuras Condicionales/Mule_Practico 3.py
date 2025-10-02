@@ -48,7 +48,7 @@ else:
 
 
 # Ejercicio 5
-#5) Escribir un programa que permita introducir contraseñas de entre 8 y 14 caracteres
+#5 Escribir un programa que permita introducir contraseñas de entre 8 y 14 caracteres
 #(incluyendo 8 y 14). Si el usuario ingresa una contraseña de longitud adecuada, imprimir por en
 #pantalla el mensaje "Ha ingresado una contraseña correcta"; en caso contrario, imprimir por
 #pantalla "Por favor, ingrese una contraseña de entre 8 y 14 caracteres". Nota: investigue el uso
@@ -94,7 +94,8 @@ print(f"Mediana: {mediana}")
 #pantalla; en caso contrario, dejar el string tal cual lo ingresó el usuario e imprimirlo por
 #pantalla.
 frase = input("Ingrese una frase o una palabra a continuacion:")
-if frase[-1].lower() in "aeiou":
+frase = frase.lower()
+if frase[-1] == "a" or frase == "e" or frase == "i" or frase == "o" or frase == "u":
     respuesta = frase + "!"
 else:
     respuesta =  frase
