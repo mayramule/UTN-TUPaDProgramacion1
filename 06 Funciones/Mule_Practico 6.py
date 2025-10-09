@@ -39,13 +39,13 @@ def calcular_area_circulo(radio):
 def calcular_perimetro_circulo(radio):
     return 2 * math.pi * radio
 
-radio = float(input("Ingrese el radio del círculo: "))
+radio = float(input("Ingrese el radio del circulo: "))
 
 area = calcular_area_circulo(radio)
 perimetro = calcular_perimetro_circulo(radio)
 
-print(f"El área del círculo es: {area:.2f}")
-print(f"El perímetro del círculo es: {perimetro:.2f}")
+print(f"El área del circulo es: {area:.2f}")
+print(f"El perímetro del circulo es: {perimetro:.2f}")
 
 '''Ejercicio 5. Crear una función llamada segundos_a_horas(segundos) que reciba
 una cantidad de segundos como parámetro y devuelva la cantidad
@@ -126,4 +126,4 @@ n2 = float(input("Ingrese el segundo numero: "))
 n3 = float(input("Ingrese el tercer numero: "))
 
 promedio = calcular_promedio(n1, n2, n3)
-print(f"El promedio de los tres números es: {promedio:.2f}")
+print(f"El promedio de los tres numeros es: {promedio:.2f}")
