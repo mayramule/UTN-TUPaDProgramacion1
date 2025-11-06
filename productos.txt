@@ -1,0 +1,6 @@
+lapicera,900,30
+resaltador,1200,15
+lapiz,700,20
+goma,300,6
+corrector,500,9
+plasticola,850,7
