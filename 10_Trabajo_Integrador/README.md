@@ -1,8 +1,8 @@
 # GESTOR DE DATOS DE PAÍSES 
 
-**TECNICATURA UNIVERSITARIA EN PROGRAMACIÓN**
+* **Carrera:** TECNICATURA UNIVERSITARIA EN PROGRAMACIÓN
 
-**Materia:** Programación 1
+* **Materia:** Programación 1
 
 ---
 
@@ -27,8 +27,6 @@ El desarrollo de esta aplicación busca **afianzar el uso de estructuras de dato
 ---
 
 ## 2. Descripción del Programa 💻
-
-Esta es una aplicación de **consola** desarrollada en **Python 3** que opera sobre un conjunto de datos geográficos y demográficos de países, cargados desde el archivo `paises.csv`.
 
 El programa aplica los conceptos fundamentales de **modularización** (uso de funciones) y **estructuras de datos** (**Listas de Diccionarios**) para transformar los datos brutos en una herramienta de consulta interactiva.
 
