@@ -72,12 +72,27 @@ El archivo de datos debe tener los siguientes encabezados, con datos separados p
 
 ## 5. Ejemplos de Entradas y Salidas ▶️
 
-| Ejemplo | Acción | Entrada de Usuario | Salida Clave |
-| :---: | :--- | :--- | :--- |
-| **1** | Búsqueda parcial | Menú 1, Opción 1. Nombre: `arg` | Muestra el registro completo de Argentina. |
-| **2** | Filtro por rango | Menú 1, Opción 3. Min: `50000000`, Máx: `300000000` | Lista de países en ese rango de población. |
-| **3** | Manejo de Error | Población mínima: `abc` | `[ERROR] Por favor ingrese solo números enteros positivos.` |
-| **4** | Salida | Menú Principal: `4` | `¡Gracias por usar el Gestor de Datos! Saliendo del programa...` |
+La siguiente lista muestra ejemplos de entradas y sus resultados esperados:
+
+* **Ejemplo 1:**
+    * **Acción:** Búsqueda por nombre.
+    * **Entrada de Usuario:** Menú 1, Opción 1. Nombre: `arg`
+    * **Salida Clave:** Muestra el registro completo de Argentina.
+
+* **Ejemplo 2:**
+    * **Acción:** Filtro por rango de población.
+    * **Entrada de Usuario:** Menú 1, Opción 3. Min: `50000000`, Máx: `300000000`
+    * **Salida Clave:** Lista de países cuya población está en ese rango.
+
+* **Ejemplo 3:**
+    * **Acción:** Intento de entrada no numérica.
+    * **Entrada de Usuario:** Población mínima: `abc`
+    * **Salida Clave:** `[ERROR] Por favor ingrese solo números enteros positivos.`
+
+* **Ejemplo 4:**
+    * **Acción:** Finalizar el programa.
+    * **Entrada de Usuario:** Menú Principal: `4`
+    * **Salida Clave:** `¡Gracias por usar el Gestor de Datos! Saliendo del programa...`
 
 ---
 
