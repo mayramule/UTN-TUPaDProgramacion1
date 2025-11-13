@@ -1,4 +1,4 @@
-# GESTOR DE DATOS DE PAÍSES 
+# GESTOR DE DATOS DE PAÍSES
 
 * **Carrera:** TECNICATURA UNIVERSITARIA EN PROGRAMACIÓN
 
@@ -70,7 +70,7 @@ El archivo de datos debe tener los siguientes encabezados, con datos separados p
 
 ---
 
-## 5. Ejemplos de Entradas y Salidas 🧪
+## 5. Ejemplos de Entradas y Salidas ▶️
 
 | Ejemplo | Acción | Entrada de Usuario | Salida Clave |
 | :---: | :--- | :--- | :--- |
