@@ -1,8 +1,8 @@
 # GESTOR DE DATOS DE PAÍSES 
 
-* **Carrera:** TECNICATURA UNIVERSITARIA EN PROGRAMACIÓN
+**Carrera:** TECNICATURA UNIVERSITARIA EN PROGRAMACIÓN 
 
-* **Materia:** Programación 1
+**Materia:** Programación 1
 
 ---
 
