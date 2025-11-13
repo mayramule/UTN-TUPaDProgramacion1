@@ -1,6 +1,6 @@
-# GESTOR DE DATOS DE PAÍSES
+# GESTOR DE DATOS DE PAÍSES 
 
-**TECNICATURA UNIVERSITARIA EN PROGRAMACIÓN**
+**TECNICATURA UNIVERSITARIA EN PROGRAMACIÓN (A DISTANCIA)**
 **Materia:** Programación 1
 
 ---
@@ -37,7 +37,7 @@ El programa aplica los conceptos fundamentales de **modularización** (uso de fu
 
 | Categoría | Funcionalidad | Descripción |
 | :---: | :--- | :--- |
-| **🔎 Búsqueda** | Por Nombre | Búsqueda parcial o exacta. **No hay diferencia si usa mayusculas o minusculas** |
+| **🔎 Búsqueda** | Por Nombre | Búsqueda parcial o exacta. **No hay diferencia si usa mayusculas o minusculas.** |
 | **🔧 Filtros** | Por Continente, Población o Superficie | Filtra por continente exacto o por rangos numéricos de Población y Superficie. |
 | **↕ Ordenamiento**| Por Nombre, Población o Superficie | Permite ordenar la lista de países por el criterio deseado (Ascendente/Descendente). |
 | **📊 Estadísticas**| Promedios, Máx/Mín y Conteo | Calcula la población/superficie promedio, el país más/menos poblado y el total de países por continente. |
